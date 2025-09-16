@@ -26,7 +26,7 @@ greenlet = [
     {version = ">3.0.3", python = ">=3.12,<3.14"},
     {version = "=3.0.3", python = ">=3.11,<3.12"}
 ]
-pillow = "^10.1.0"
+pillow = ">=11.2.1"
 starlette-context = "^0.3.6"
 ddtrace = "^2.3.2"
 pydantic = "^2.5.2"
