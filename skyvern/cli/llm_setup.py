@@ -41,7 +41,7 @@ def update_or_add_env_var(key: str, value: str) -> None:
             "MAX_STEPS_PER_RUN": "50",
             "LOG_LEVEL": "INFO",
             "LITELLM_LOG": "CRITICAL",
-            "DATABASE_STRING": "postgresql+psycopg://skyvern@localhost/skyvern",
+            "DATABASE_STRING": "postgresql+psycopg://pguser:pguser123@localhost:5432/skyvern",
             "PORT": "8000",
             "ANALYTICS_ID": "anonymous",
             "ENABLE_LOG_ARTIFACTS": "false",

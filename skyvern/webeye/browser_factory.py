@@ -658,7 +658,7 @@ class BrowserState:
         if await self.get_working_page() is None:
             page: Page | None = None
             use_existing_page = False
-            if browser_address and len(self.browser_context.pages) > 0:
+            if len(self.browser_context.pages) > 0:
                 pages = [
                     http_page
                     for http_page in self.browser_context.pages
